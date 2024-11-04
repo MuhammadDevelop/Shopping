@@ -1,0 +1,75 @@
+.register{
+    width: 1500px;
+    height: 900px;
+    margin: 0 auto ;
+}
+.container{
+    width: 1300px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form__parent{
+    width: 756px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.form__tit{
+font-family: Inter;
+font-size: 52px;
+font-weight: 500;
+line-height: 62.93px;
+text-align: center;
+
+}
+.fom__text{
+    color: #828282;
+    //styleName: Paragraph;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: center;
+
+}
+.form{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.form__box{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.form__inp{
+    width: 219px;
+height: 54px;
+color: #000;
+outline: none;
+border: 1px 0px 0px 0px;
+
+    margin-top: 10px;
+    //styleName: Paragraph;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+
+}
+.form__btn{
+    width: 219px;
+}

@@ -1,0 +1,87 @@
+
+
+.footer{
+    width: 1500px;
+    height: 581px;
+    background: #BCDDFE;
+margin: 0 auto;
+}
+.container{
+    width: 1300px;
+    height: 681px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer___list{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footer__listItem{
+    width: 221px;
+    min-height: 85px;
+    margin: 0 auto;
+
+}
+.footer__listItemImg{
+    min-height: 39px;
+}
+.footer__tit{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+color: #22262A;
+font-weight: bold;
+}
+.footer__text{
+color: #22262A;
+margin-top: 10px;
+font-family: Proxima Nova;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.62px;
+
+
+}
+.footer__imgGroup{
+    width: 71px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__lastText{
+    color: #C1C8CE;
+    font-family: Proxima Nova;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.05px;
+text-align: left;
+
+}
+.footer__last{
+    width: 1196px;
+    height: 60px;
+    margin-top: 220px;
+    display: flex;
+    position:relative;
+    align-items: center;
+    border-top:1px solid #C1C8CE;
+}
+.footer__lastText{
+    position: absolute;
+    left: 5px;
+}
+.footer__lastImg{
+    position: absolute;
+    right: 5px;
+}
